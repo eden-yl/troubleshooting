@@ -1,0 +1,4 @@
+Caused by: org.xml.sax.SAXParseException; lineNumber: 513; columnNumber: 9; cvc-complex-type.2.3: 유형의 콘텐츠 유형이 요소 전용이므로 'beans' 요소에는 문자 [children]이 포함될 수 없습니다.
+
+xml 파일 오타 확인
+주석문 <!-- --> 을 제대로 열고 닫지 않은 경우가 대부분의 오류 원인
