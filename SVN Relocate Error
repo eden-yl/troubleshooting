@@ -1,0 +1,4 @@
+SVN Relocate Error
+
+- IntelliJ 내부적으로 Relocate 무한로딩 등 에러나는 경우, 프로젝트 탐색기에서 워크스페이스 우클릭 → TortoiseSVN 클릭 → Relocate 진행
+- Checkout 무한로딩도 같은 방법으로 처리
