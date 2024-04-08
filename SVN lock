@@ -1,0 +1,4 @@
+file path: {workspace}/.svn/wc.db
+
+DELETE FROM WC_LOCK;
+DELETE FROM WORK_QUEUE;
