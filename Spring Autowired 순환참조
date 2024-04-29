@@ -1,0 +1,9 @@
+상위클래스 A
+A를 상속받는 하위클래스 B
+
+이때, 상위클래스 A가 B를 Autowired 하는 경우, Could not autowired 관련 오류 발생함
+
+Spring 4.0 버전에서는 발생하지 않음
+3.x 버전의 문제인 것 같음
+
+확인 필요
