@@ -3,3 +3,22 @@ List<Object> list = ifList.stream().collect(Collectors.toList()); // 오류 발�
 List<String> custIdList = ifList.stream().map(x->x.get("CUST_ID").toString()).collect(Collectors.toList()); // 오류 발생함
 
 list.stream().map -> 이 과정에서 뭔가 인덱스를 벗어나는 오류가 발생하는데 아직 해결하지 못함
+
+
+// 테스트 코드
+``java
+public void test() {
+    List<Map> ifList = wmsDao.queryForList("SELECT_TEST");
+    List<Object> list = ifList.stream().collect(Collectors.toList());
+    List<String> custIdList = ifList.stream().map(x->x.get("CUST_ID").toString()).collect(Collectors.toList());
+    List<CJRequestRcptVO> voList = ifList.stream()
+            .map(x->CJRequestRcptVO.builder()
+                    .custId(x.get("CUST_ID").toString())
+                    .mpckKey(x.get("MPCK_KEY").toString())
+                    .mpckSeq(Integer.parseInt(x.get("MPCK_SEQ").toString()))
+                    .build())
+            .collect(Collectors.toList());
+
+    ifList.stream().forEach((k)-> System.out.println("key: "+k));
+}
+``
