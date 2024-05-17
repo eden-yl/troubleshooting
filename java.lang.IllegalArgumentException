@@ -1,0 +1,3 @@
+java.lang.IllegalArgumentException: SELECT_TEST is ambiguous in Mapped Statements collection (try using the full name including the namespace, or rename one of the entries)
+
+SQL ID 중복
