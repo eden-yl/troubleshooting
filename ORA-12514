@@ -1,0 +1,4 @@
+ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=WzMgIl6RT0ifRrUD6IY/FQ==) ORA-12514: 데이터베이스에 접속할 수 없습니다. %s 서비스가 %s의 리스너에 등록되지 않았습니다. (CONNECTION_ID=WzMgIl6RT0ifRrUD6IY/FQ==)
+
+IP, SID 확인 필요
+
