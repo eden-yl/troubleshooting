@@ -1,0 +1,6 @@
+1. DBBrowser for SQLite 실행
+2. [workspace경로]\.svn\wc.db 열기
+3. WORK_QUEUE 테이블의 데이터 삭제
+  DELETE FROM WORK_QUEUE
+4. Subversion > Cleanup
+5. Subversion > Update Directory
