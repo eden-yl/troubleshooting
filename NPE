@@ -1,0 +1,2 @@
+'java.lang.NullPointerException: Cannot read field "lastRowProcessed" because "this.definesAccessors[0]" is null
+
