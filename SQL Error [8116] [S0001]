@@ -1,0 +1,5 @@
+SQL Error [8116] [S0001]: round 함수의 인수 2에 대한 인수 데이터 형식 varchar이(가) 잘못되었습니다.
+
+ORACLE > MSSQL
+DB 전환 시 syntax 호환성 문제
+
