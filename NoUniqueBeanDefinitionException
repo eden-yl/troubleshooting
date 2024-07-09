@@ -1,0 +1,7 @@
+org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type ''com.slp.module.wms.service.oms.validation.OrderRcvCommonValidator'' 
+available: expected single matching bean but found 4: outbRcvValidator,omsAsnValidator,orderRcvCommonValidator,whTransRcvValidator
+
+
+Solution:
+이 경우 outbRcvValidator, omsAsnValidator, whTransRcvValidator 세 클래스가 orderRcvCommonValidator를 상속받는 구조이기 때문에 발생하는 오류임
+상속받은 하위 클래스 중 필요한 것을 getBean하면 됨
