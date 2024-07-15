@@ -1,0 +1,8 @@
+SQL Error [102] [S0001]: 'IF_SCD' 근처의 구문이 잘못되었습니다.
+
+Error position: line: 3
+
+SELECT * FROM IFT_RCV_INB_HR
+WHERE
+    IF_NO       = #{ifNo}
+    IF_SCD      = #{ifScd}
