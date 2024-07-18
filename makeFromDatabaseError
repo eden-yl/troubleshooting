@@ -1,4 +1,4 @@
-com.microsoft.sqlserver.jdbc.SQLServerException: 'A'의 열 1에 열 이름이 지정되지 않았습니다.
+com.microsoft.sqlserver.jdbc.SQLServerException: 'A'의 열 1에 열 이름이 지정되지 않았습니다.   >>> MAX, SUM 등 컬럼에 AS 지정하지 않아 발생
 	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:262)
 	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1632)
 	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:602)
