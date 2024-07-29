@@ -1,0 +1,11 @@
+(String), java.lang.NullPointerException: Cannot read the array length because "array" is null
+	at java.base/java.util.Arrays.stream(Arrays.java:5428)
+
+
+파라미터를 Object ... args 즉, 오브젝트 배열로 받게 한 메소드를
+this.Exception(msg, null, null)로 호출한 경우
+
+null을 배열로 캐스팅하는 과정에서 NPE 발생함
+if(args==null) return;
+
+NPE 체크는 아무리 해도 모자라지 않다!!
