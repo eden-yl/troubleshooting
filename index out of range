@@ -1,3 +1,5 @@
 (String), com.microsoft.sqlserver.jdbc.SQLServerException: 인덱스 5이(가) 범위를 벗어났습니다.
 
+XML 파일에서 쿼리문 중간 주석 처리할 경우 정상적으로 주석 인식 못하고 공백으로 인식하는 듯함
+주석 처리 대신 완전히 삭제 후 빌드해야 해당 오류 해결됨
 
