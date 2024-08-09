@@ -1,0 +1,6 @@
+// map에 담긴 value가 BigDecimal인 경우, int로 변환하는 방법
+
+detailList.stream().forEach(detail -> {
+  detail.put("INB_DETL_NO", detail.valueOf("INB_DETL_NO", BigDecimal.class).intValue());
+  detail.put("INB_ECT_QTY", detail.valueOf("INB_ECT_QTY", BigDecimal.class).intValue());
+});
