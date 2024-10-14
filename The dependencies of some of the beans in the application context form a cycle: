@@ -1,0 +1,20 @@
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌──->──┐
+|  closeToday defined in class path resource [com/slp/module/wms/service/inventory/closing/InvnClosingService.class]
+└──<-──┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+Disconnected from the target VM, address: '127.0.0.1:55762', transport: 'socket'
+
+Process finished with exit code 1
