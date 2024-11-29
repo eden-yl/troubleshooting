@@ -1,0 +1,2 @@
+com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.util.ArrayList<java.lang.Object>` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: UNKNOWN; byte offset: #UNKNOWN] (through reference chain: com.slp.module.wms.service.oms.asn.domain.OmsAsnHrDomain["details"]->java.util.ArrayList[0]->com.slp.module.wms.service.oms.asn.domain.OmsAsnDrDomain["SERIAL_LIST"]->java.util.ArrayList[0])
