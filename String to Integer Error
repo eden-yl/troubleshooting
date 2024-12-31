@@ -1,0 +1,4 @@
+java.lang.NumberFormatException: radix 0 less than Character.MIN_RADIX
+
+Integer.parseInt(String) 과정에서 빈 값 등 변환할 수 없는 파라미터일 때 발생
+
