@@ -1,0 +1,17 @@
+class java.lang.String cannot be cast to class java.util.Date
+
+// string -> date
+public Date toDate(String date) {
+    try {
+        return Converter.toDate(date);
+    } catch (Exception e) {
+        return null;
+    }
+}
+
+
+
+class java.math.BigDecimal cannot be cast to class java.lang.Integer (java.math.BigDecimal and java.lang.Integer are in module java.base of loader ''bootstrap'')
+
+
+
