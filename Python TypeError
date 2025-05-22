@@ -1,0 +1,12 @@
+"TypeError: 'int' object is not iterable"
+
+int 객체를 for문으로 반복하려 할 때 발생하는 오류.
+int는 in range를 사용해 반복해야 함.
+
+n = int(input())
+
+for i in n:
+  print(i) # TypeError...
+
+for i in range(0, n):
+  print(i)
