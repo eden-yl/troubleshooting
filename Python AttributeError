@@ -1,0 +1,5 @@
+AttributeError: 'int' object has no attribute 'split'
+
+int 객체에 split 메소드 적용 시 발생하는 오류.
+필요하면 int를 str()로 문자열 형변환 후 split 적용.
+
