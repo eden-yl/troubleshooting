@@ -16,3 +16,9 @@ TypeError: can only concatenate str (not "int") to str
 int 객체와 문자열 객체를 결합할 때 발생하는 오류.
 int 객체를 str()하여 문자열로 형변환 필요.
 
+
+TypeError: can't multiply sequence by non-int of type 'float'
+float 타입 객체를 곱셈할 때 발생.
+int()로 변환해야 함.
+
+
