@@ -1,0 +1,17 @@
+Failed to deserialize payload. Is the byte array a result of corresponding serialization for DefaultDeserializer?; nested exception is java.io.InvalidClassException: {class path...}; local class incompatible: stream classdesc serialVersionUID = 2729026532053609256, local class serialVersionUID = 3761938859372303044
+
+
+
+
+
+
+
+
+Invalid Class Exception: no valid constructor
+The Invalid class exception is one of the commonly experienced exception by the java programmers who use object serialization in their program.There are three main causes for this exception to be thrown.They are,
+1.serial version of the class
+2.containing unknown data types,
+3.no-arg constructor.
+In this post we will discuss about the third reason "No-arg constructor".How the absence of a no-arg constructor causes this exception to be thrown.
+
+(https://craftingjava.blogspot.com/2012/06/javaioinvalidclassexception-no-valid.html)
