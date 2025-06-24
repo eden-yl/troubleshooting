@@ -1,0 +1,8 @@
+org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.LinkageError: loader constraint violation: loader 'app' wants to load class {domain path}.UserInfo. A different class with the same name was previously loaded by org.springframework.boot.devtools.restart.classloader.RestartClassLoader @2c146027. (com.slp.session.domain.UserInfo is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @2c146027, parent loader 'app')
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1082)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+
+
+
