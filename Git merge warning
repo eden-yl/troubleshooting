@@ -1,0 +1,5 @@
+When you commit first before pulling the source from Git, the following message will appear after commit.
+"Merge remote-tracking branch 'origin/main'"
+
+How to fix: Pull first before commit.
+
