@@ -1,0 +1,6 @@
+Parameter 0 of constructor in "...package path" required a bean of type '...repository path' that could not be found
+
+
+
+how to fix: add @Repository annotation to repository interface
+
