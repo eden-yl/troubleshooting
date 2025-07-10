@@ -1,0 +1,44 @@
+java.sql.SQLSyntaxErrorException: ORA-00933: SQL command not properly ended
+
+Hibernate: 
+    select
+        outbhrenti0_.WH_ID as wh_id1_0_,
+        outbhrenti0_.OUTB_NO as outb_no2_0_,
+        outbhrenti0_.OWNER_ID as owner_id3_0_,
+        outbhrenti0_.OUTB_TCD as outb_tcd4_0_,
+        outbhrenti0_.OUTB_SCD as outb_scd5_0_,
+        outbhrenti0_.ALLOC_SCD as alloc_scd6_0_,
+        outbhrenti0_.REF_NO as ref_no7_0_,
+        outbhrenti0_.ORDER_NO as order_no8_0_,
+        outbhrenti0_.OUTB_ECT_DATE as outb_ect_date9_0_,
+        outbhrenti0_.CUST_ID as cust_id10_0_,
+        outbhrenti0_.CUST_NM as cust_nm11_0_,
+        outbhrenti0_.SHIPTO_ID as shipto_id12_0_,
+        outbhrenti0_.SHIPTO_NM as shipto_nm13_0_,
+        outbhrenti0_.SHIPTO_TEL_NO as shipto_tel_no14_0_,
+        outbhrenti0_.SHIPTO_FAX_NO as shipto_fax_no15_0_,
+        outbhrenti0_.SHIPTO_ZIP_NO as shipto_zip_no16_0_,
+        outbhrenti0_.SHIPTO_ADDR_1 as shipto_addr_17_0_,
+        outbhrenti0_.SHIPTO_ADDR_2 as shipto_addr_18_0_,
+        outbhrenti0_.TRUCK_NO as truck_no19_0_,
+        outbhrenti0_.TRNS_TCD as trns_tcd20_0_,
+        outbhrenti0_.RMK as rmk21_0_,
+        outbhrenti0_.DEL_YN as del_yn22_0_,
+        outbhrenti0_.INS_USER_ID as ins_user_id23_0_,
+        outbhrenti0_.INS_DATETIME as ins_datetime24_0_,
+        outbhrenti0_.UPD_USER_ID as upd_user_id25_0_,
+        outbhrenti0_.UPD_DATETIME as upd_datetime26_0_ 
+    from
+        ( SELECT
+            * 
+        FROM
+            WMT_OB_OUTB_HR ) outbhrenti0_ 
+    where
+        outbhrenti0_.WH_ID=? 
+        and outbhrenti0_.OWNER_ID=? 
+        and outbhrenti0_.REF_NO=? 
+        and outbhrenti0_.DEL_YN=? fetch first ? rows only
+
+
+
+
