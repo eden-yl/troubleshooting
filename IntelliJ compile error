@@ -1,0 +1,4 @@
+Project Structure > Project Settings > Project
+
+Compiler output: ${set this to the path of workspace build}
+
