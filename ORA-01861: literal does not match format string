@@ -1,1 +1,3 @@
-oracle error
+ORA-01861: literal does not match format string
+
+DB 컬럼은 DATE 형식인데 데이터가 String일 때 발생
